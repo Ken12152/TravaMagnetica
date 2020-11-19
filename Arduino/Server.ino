@@ -1,7 +1,5 @@
 //////////////////////////// ------ ////////////////////////////
 
-
-
 // Faz a leitura da primeira linha da requisição
 char* readRequest()
 {

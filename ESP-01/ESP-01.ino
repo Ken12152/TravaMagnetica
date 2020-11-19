@@ -2,8 +2,8 @@
 
 
 // Troque pelos dados da sua rede
-const char* ssid = "SSID";
-const char* password = "12345678";
+const char* ssid = "Felipe";
+const char* password = "chovelafora";
 const char* ip = "192.168.0.177";
 
 // Timeout da conexão
@@ -20,8 +20,8 @@ uint8_t buffer[MAX_BUFFER];
 
 void setup() 
 {
-  Serial.begin(9600);
-  //Serial.begin(115200);
+  //Serial.begin(9600);
+  Serial.begin(115200);
 
   // Envia a informação da rede para conectar
   WiFi.disconnect();
